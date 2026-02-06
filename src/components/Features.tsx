@@ -16,14 +16,38 @@ const features = [
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={2}
+          d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+        />
+      </svg>
+    ),
+    title: "AdFlux",
+    titleKo: "가상 제품 배치 광고",
+    description:
+      "Seamlessly insert product advertisements into completed videos using generative AI. Our technology naturally synthesizes products into scenes for authentic virtual product placement.",
+    input: "Video + Image",
+    output: "Product Placed Video",
+    gradient: "bg-gradient-to-br from-cyan-500 to-emerald-600",
+  },
+  {
+    icon: (
+      <svg
+        className="w-7 h-7 text-white"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
           d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
         />
       </svg>
     ),
-    title: "Super Resolution",
+    title: "SUPERNOVA",
     titleKo: "슈퍼레솔루션",
     description:
-      "Transform low-resolution videos into stunning 4K quality. Our AI analyzes each frame and intelligently upscales while preserving details and reducing noise.",
+      "Transform low-resolution videos into stunning 4K quality. Our AI analyzes each frame and efficiently upscales its perceptual quality and framerate while reducing noise.",
     input: "Video",
     output: "Enhanced Video",
     gradient: "bg-gradient-to-br from-violet-500 to-purple-600",
@@ -68,7 +92,7 @@ const features = [
         />
       </svg>
     ),
-    title: "AutoReframe",
+    title: "ReFrameX",
     titleKo: "화면비 자동 조정 (16:9, 9:16)",
     description:
       "Intelligently reframe videos for any aspect ratio. Perfect for converting horizontal videos to vertical format for social media, or vice versa.",
